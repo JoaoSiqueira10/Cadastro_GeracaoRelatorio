@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\CadastroCRUD_Teste.props" />
+</Project>

@@ -1,0 +1,21 @@
+﻿@model List<Pessoa>
+
+<h1>Relatório</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Nome</td>
+                <td>@item.Email</td>
+            </tr>
+        }
+    </tbody>
+</table>
