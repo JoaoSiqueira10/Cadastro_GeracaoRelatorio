@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="06/16/2023 16:21:32" ReportInfo.Modified="06/16/2023 16:21:32" ReportInfo.CreatorVersion="2023.2.18.0">
+  <Dictionary>
+    <BusinessObjectDataSource Name="pessoasList" ReferenceName="pessoasList" DataType="System.Collections.Generic.List`1[[CadastroPessoa.Models.Pessoa, CadastroPessoa, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" Enabled="true">
+      <Column Name="Id" DataType="System.Int32"/>
+      <Column Name="CPF" DataType="System.String"/>
+      <Column Name="Nome" DataType="System.String"/>
+      <Column Name="Email" DataType="System.String"/>
+      <Column Name="Identidade" DataType="System.String"/>
+    </BusinessObjectDataSource>
+  </Dictionary>
+</Report>
